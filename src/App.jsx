@@ -18,7 +18,7 @@ function App() {
     <Header/>
     <Ensure/>
     <Automotive/>
-    <Map/>/
+    <Map/>
     <Proudly/>
     <ProjectForm/>
     <TestimonialSection/>
