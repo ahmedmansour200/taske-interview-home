@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Card = () => {
     return (
-        <div className="swiper-slide swiper-slide-active" style={{ width: '400px', marginRight: 20 }}>
+        <div className="swiper-slide swiper-slide-active" style={{ width: '380px', marginRight: 20 }}>
             <a className="flex flex-col gap-5" href="#">
                 <div className="sm:rounded-[16px] rounded-[6.6px] object-cover w-full aspect-[1.5/1] overflow-hidden group ">
                     <img src="https://creteagency.com/wp-content/uploads/2024/03/Blog-IMG-1-1.png" alt="Development-4885" className="object-cover w-full h-full group-hover:scale-110 transition-all duration-300 ease-out" />
