@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="bg-black text-gray-300 py-10">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+            <div className="container mx-auto flex justify-between gap-8 px-4 flex-wrap">
                 {/* Left Section - Logo and Navigation */}
                 <div className="flex flex-col space-y-4">
                     {/* Logo */}
@@ -96,6 +96,10 @@ const Footer = () => {
                 <p className="font-medium  text-[18px]">All Rights Reserved to Crete Agency | 2024</p>
                     </div>
                 </div>
+<a href="#top" className="rounded-full border-[1px] border-[#3C403C] text-[rgba(236, 238, 236, 1)] w-11 h-11 z-[5]  flex justify-center items-center hover:text-orange-500 hover:border-orange-500 transition-colors ease-out duration-200">
+    <svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 512 512" height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinecap="square" strokeMiterlimit={10} strokeWidth={48} d="m112 244 144-144 144 144M256 120v292" /></svg>
+    </a>
+
             </div>
         </footer>
     );

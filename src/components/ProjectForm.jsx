@@ -14,8 +14,8 @@ const ProjectForm = () => {
   };
 
   return (
-    <section className="bg-black px-3 p-[160px] 2lg:px-0 mx-auto section flex flex-col justify-center 2lg:h-screen overflow-hidden">
-      <h2 className="font-Degular font-normal x2l:text-[60px] 2lg:text-[50px] sm:text-[45px] text-3xl mt-5 sm:mt-0 text-white">
+    <section className="bg-black px-3 p-[160px] 2lg:px-0 mx-auto section flex flex-col items-center justify-start 2lg:h-screen overflow-hidden">
+      <h2 className=" font-normal x2l:text-[60px] 2lg:text-[50px] sm:text-[45px] text-3xl mt-5 sm:mt-0 text-white">
         Got <span className="text-orange-500 font-semibold">a Project?</span>
       </h2>
       <form
@@ -24,9 +24,9 @@ const ProjectForm = () => {
         className="sm:mt-10 mt-5 flex flex-col gap-5 relative"
       >
         {/* Name Field */}
-        <div className="flex flex-col 2lg:flex-row w-full 2lg:items-center gap-5 2lg:justify-between">
-          <div className="grid grid-cols-label-input gap-[10px] items-center 2lg:w-[41.4%]">
-            <label className="font-semibold text-white text-lg font-thin font-Degular">
+        <div className="flex   w-full flex-wrap gap-5">
+          <div className="flex gap-[10px] items-center 2lg:w-[41.4%]">
+            <label className=" text-white text-lg font-thin">
               My name is
             </label>
             <label className="flex px-4 py-2 gap-x-3 transition-all  sm:!min-h-[3.125rem] min-h-8 rounded-[20px] shadow-input relative"
@@ -46,8 +46,8 @@ const ProjectForm = () => {
             )}
           </div>
           {/* Need Help Field */}
-          <div className="grid grid-cols-label-input gap-[10px] items-center 2lg:w-[57.6%]">
-            <label className="font-semibold text-white text-lg font-thin font-Degular">
+          <div className="flex  gap-[10px] items-center 2lg:w-[57.6%]">
+            <label className=" text-white text-lg font-thin">
               Need help with
             </label>
             <label className="flex px-4 py-2 gap-x-3 transition-all sm:!min-h-[3.125rem] min-h-8 rounded-[20px] shadow-input relative"
@@ -69,9 +69,9 @@ const ProjectForm = () => {
         </div>
 
         {/* Email and Phone Fields */}
-        <div className="flex flex-col 2lg:flex-row w-full 2lg:items-center gap-5 2lg:justify-between">
-          <div className="grid grid-cols-label-input gap-[10px] items-center 2lg:w-[66%]">
-            <label className="font-semibold text-white text-lg font-thin font-Degular">
+        <div className="flex  w-full  justify-start  gap-5 flex-wrap">
+          <div className="flex  gap-[10px] items-center 2lg:w-[66%]">
+            <label className=" text-white text-lg font-thin">
               You can E-mail me at
             </label>
             <label className="flex px-4 py-2 gap-x-3 transition-all sm:!min-h-[3.125rem] min-h-8 rounded-[20px] shadow-input relative"
@@ -97,8 +97,8 @@ const ProjectForm = () => {
             )}
           </div>
 
-          <div className="grid grid-cols-label-input gap-[10px] items-center 2lg:w-[33%]">
-            <label className="font-semibold text-white text-lg font-thin font-Degular">
+          <div className="flex  gap-[10px] items-center 2lg:w-[33%]">
+            <label className=" text-white text-lg font-thin">
               or Call
             </label>
             <label className="flex px-4 py-2 gap-x-3 transition-all sm:!min-h-[3.125rem] min-h-8 rounded-[20px] shadow-input relative"
@@ -127,11 +127,11 @@ const ProjectForm = () => {
 
         {/* About Field */}
         <div className="flex w-full items-start">
-          <div className="grid grid-cols-label-input gap-[10px] w-[100%]">
-            <label className="font-semibold text-white text-lg font-thin font-Degular pt-2">
+          <div className="flex gap-[10px] w-[100%]">
+            <label className=" text-white text-lg font-thin pt-2">
               About
             </label>
-            <label className="flex px-4 py-2 gap-x-3 transition-all sm:!min-h-[3.125rem] min-h-8 rounded-[20px]  shadow-input relative"
+            <label className="w-full px-4 py-2 gap-x-3 transition-all sm:!min-h-[3.125rem] min-h-8 rounded-[20px]  shadow-input relative"
               style={{ backgroundColor: "#c7b6b61f" }}>
               <div className="relative flex-1">
                 <textarea

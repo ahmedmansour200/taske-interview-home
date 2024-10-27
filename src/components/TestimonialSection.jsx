@@ -25,7 +25,7 @@ const TestimonialSection = () => {
   return (
     <section className="bg-black py-12 px-20">
      <div className="flex justify-between items-center mb-8">
-  <h2 className="text-white text-[60px] md:text-[40px] font-bold">
+  <h2 className="font-semibold  text-[#F9F9F9] leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">
     What Our <span className="text-orange-500">Clients</span> Say About Us
   </h2>
 

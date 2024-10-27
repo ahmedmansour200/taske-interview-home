@@ -4,8 +4,8 @@ export const Proudly = () => {
   return (
     <div className='bg-black  p-8'>
      <div className=" flex items-center justify-between">
-    <h2 className="text-[60px] text-white font-bold">Proudly Serving Our<br/>
-    <span className="text-[60px] font-bold text-orange-500">Clients.</span>
+    <h2 className="font-semibold  text-[#F9F9F9] leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">Proudly Serving Our<br/>
+    <span className="font-Degular font-semibold text-orange-500 leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">Clients.</span>
     </h2>
     <a href='#' className='font-semibold text-[#F9F9F9B2] x2l:text-[22px] xl:text-lg lg:text-base text-sm text-secondary-2 border-2 border-secondary-1 rounded-[30px] lg:px-10 sm:px-7 px-5 lg:py-3 py-2.5 max-w-fit hover:text-orange-500 hover:border-orange-500 transition-colors duration-200 ease-out flex items-center justify-center outline-none'>Git in Touch</a>
   </div>

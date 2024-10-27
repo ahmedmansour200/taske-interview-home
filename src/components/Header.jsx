@@ -3,7 +3,7 @@ import { Navbar } from './Navbar'
 
 export const Header = () => {
   return (
-<div className="relative h-screen overflow-hidden">
+<div id='top' className="relative h-screen overflow-hidden">
   {/* Background Video */}
   <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
     <source src="./videos/hader-video.mp4" type="video/mp4" />
@@ -12,9 +12,9 @@ export const Header = () => {
   {/* Overlay with content */}
   <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
     {/* Main Heading */}
-    <h1 className="text-6xl font-bold text-white text-center">
-    Make your future so <span className="text-orange-500">Irresistible,</span><br />
-    it becomes <span className="text-orange-500">Inevitable.</span>
+    <h1 className="font-semibold  text-[#F9F9F9] leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">
+    Make your future so <span className="font-Degular font-semibold text-orange-500 leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">Irresistible,</span><br />
+    it becomes <span className="font-Degular font-semibold text-orange-500 leading-none text-center font-Degular xl:text-[55px] lg:text-[45px] xxm:text-[35px] text-2xl">Inevitable.</span>
     </h1>
     {/* Subheading */}
     <p className="mt-4 max-w-[400px] text-lg text-gray-300 text-center">
